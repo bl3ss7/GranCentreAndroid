@@ -4,26 +4,254 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".pelicules">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Pelicules"
-        android:textColor="@color/lavender"
-        android:textSize="35sp"
-        />
-    <LinearLayout
-        android:layout_width="wrap_content"
         android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Pelicules"
+            android:textColor="@color/lavender"
+            android:textSize="35sp"
+            android:layout_marginTop="30dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/arrowback"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="85dp"
+            android:clipToPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/b1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <ImageView
+                            android:id="@+id/p1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentStart="true"
+                            android:src="@drawable/transports"
+                            />
+
+                        <!-- Textos y contenido -->
+                        <TextView
+                            android:id="@+id/t1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p1"
+                            android:text="Títol: Alimañas"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/t1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p1"
+                            android:text="ALIMAÑAS és una comèdia negra per a tots els públics protagonitzada per dos germans molt diferents, Carlos i Paco, als quals els uneix l'ambició per heretar un edifici propietat de la seva anciana mare." />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/b2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <ImageView
+                            android:id="@+id/p2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentStart="true"
+                            android:src="@drawable/transports"
+                            />
+
+                        <!-- Textos y contenido -->
+                        <TextView
+                            android:id="@+id/t2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p2"
+                            android:text="Títol: Black Friday"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/t2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p2"
+                            android:text="Després d'un Black Friday en què es produeixen disturbis que acaben en tragèdia, un misteriós assassí terroritza Plymouth, a Massachusetts." />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/b3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <ImageView
+                            android:id="@+id/p3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentStart="true"
+                            android:src="@drawable/transports"
+                            />
+
+                        <!-- Textos y contenido -->
+                        <TextView
+                            android:id="@+id/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p3"
+                            android:text="Títol: El chico y la garza"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/t3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p3"
+                            android:text="Un jove anomenat Mahito, que enyora la seva mare, s'aventura en un món compartit pels vius i els morts. Allà, la mort arriba a la fi i la vida troba un nou començament. Una fantasia semiautobiogràfica sobre la vida, la mort i la creació, en homenatge a l'amistat, de la ment de Hayao Miyazaki." />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/b4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <ImageView
+                            android:id="@+id/p4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentStart="true"
+                            android:src="@drawable/transports"
+                            />
+
+                        <!-- Textos y contenido -->
+                        <TextView
+                            android:id="@+id/t4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p4"
+                            android:text="Títol: Hypnotic"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/t4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p4"
+                            android:text="Un detectiu investiga la desaparició de la seva filla i descobreix que tot allò que creu saber sobre la seva realitat i el seu passat és una mentida. Thriller d'acció amb tintes de ciència ficció que farà que l'espectador es qüestioni fins a la realitat."/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/b5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <!-- ImageView -->
+                        <ImageView
+                            android:id="@+id/p5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentStart="true"
+                            android:src="@drawable/transports"
+                            />
+
+                        <!-- Textos y contenido -->
+                        <TextView
+                            android:id="@+id/t5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p5"
+                            android:text="Títol: Vidas pasadas"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/t5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/p5"
+                            android:text="Nora i Hae Sung, dos amics de la infància amb una forta connexió, se separen quan la família de Nora emigra des de Corea del Sud. Dues dècades més tard, es retrobaran a Nova York durant una setmana que els enfrontarà a l'amor, el destí i les eleccions que componen una vida."/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
         <ImageButton
+            android:id="@+id/arrowback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
             android:background="@color/transparent"
-            android:id="@+id/arrowback"
-            android:src="@drawable/arrowback"/>
-    </LinearLayout>
+            android:src="@drawable/arrowback" />
+    </RelativeLayout>
 </LinearLayout>

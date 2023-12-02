@@ -27,9 +27,7 @@
         android:id="@+id/row1"
         android:layout_width="match_parent"
         android:layout_height="175dp"
-        android:orientation="horizontal"
-        android:padding="10dp"
-        android:layout_marginTop="10dp">
+        android:orientation="horizontal">
 
         <!-- CardView 1 -->
         <androidx.cardview.widget.CardView
@@ -80,9 +78,7 @@
         android:id="@+id/row2"
         android:layout_width="match_parent"
         android:layout_height="175dp"
-        android:orientation="horizontal"
-        android:padding="10dp"
-        android:layout_marginTop="10dp">
+        android:orientation="horizontal">
 
         <!-- CardView 1 -->
         <androidx.cardview.widget.CardView
@@ -123,6 +119,56 @@
                     android:layout_marginEnd="15dp"
                     android:layout_marginBottom="15dp"
                     android:layout_toRightOf="@id/taxiImg"
+                    android:text="gtrtfghgkhnoimlkhjnalsidkfjhniamlskdjf"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:orientation="horizontal">
+
+        <!-- CardView 1 -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/rodaliesText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rodaliesImg"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Rodalies"
+                    android:textColor="@color/lavender"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:id="@+id/rodaliesImg"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/train" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_toRightOf="@id/rodaliesImg"
                     android:text="gtrtfghgkhnoimlkhjnalsidkfjhniamlskdjf"
                     android:textSize="20dp" />
             </RelativeLayout>

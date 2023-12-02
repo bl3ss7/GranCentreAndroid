@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">pruebasMaterialDesign</string>
+    <string name="app_name">Gran Centre</string>
+    <string-array name="restaurants">
+        <item>Selecciona la categoría</item>
+        <item>Sushi</item>
+        <item>Italià</item>
+        <item>Menjar Rapid</item>
+    </string-array>
 </resources>
