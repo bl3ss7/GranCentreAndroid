@@ -35,566 +35,898 @@
             android:layout_marginTop="150dp"
             android:layout_alignParentTop="true">
 
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b1"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
 
-                <LinearLayout
-                    android:id="@+id/row1"
-                    android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b1"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/bus406"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/hostal_athenas"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/hostal_athenas"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t1"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/hostal_athenas"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num1"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+                            <ImageButton
+                                android:id="@+id/ubi1"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/hostal_athenas" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/bus406"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row2"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/hostal_athenas"
+                            android:layout_marginTop="11dp"
+                            android:text="Hostal Athenas"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b2"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/bus407"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b2"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/hotel_everest"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/hotel_everest"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t2"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/hotel_everest"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num2"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi2"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/hotel_everest" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/bus407"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row3"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/hotel_everest"
+                            android:layout_marginTop="11dp"
+                            android:text="Hotel Everest"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b3"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/bus550"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b3"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/hotel_torino"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/hotel_torino"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t3"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/hotel_torino"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num3"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi3"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/hotel_torino" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/bus550"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row4"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/hotel_torino"
+                            android:layout_marginTop="11dp"
+                            android:text="Hotel Torino"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b4"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/bus560"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b4"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/bandb"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/bandb"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+
+
+                        <LinearLayout
+                            android:id="@+id/t4"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/bandb"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num4"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi4"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/bandb" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/bus560"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row5"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/bandb"
+                            android:layout_marginTop="11dp"
+                            android:text="BandB"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b5"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/bus569"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b5"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/hotel_verti"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/hotel_verti"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t5"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/hotel_verti"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num5"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi5"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/hotel_verti" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/bus569"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row6"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/hotel_verti"
+                            android:layout_marginTop="11dp"
+                            android:text="Hotel Verti"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b6"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/a"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b6"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/ibis_montelo"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/ibis_montelo"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t6"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/ibis_montelo"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num6"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi6"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/ibis_montelo" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/a"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row7"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ibis_montelo"
+                            android:layout_marginTop="11dp"
+                            android:text="Ibis Montmelo"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b7"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/b"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b7"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/fonda_europa"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/fonda_europa"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t7"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/fonda_europa"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num7"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi7"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/fonda_europa" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/b"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row8"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/fonda_europa"
+                            android:layout_marginTop="11dp"
+                            android:text="Fonda Europa"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b8"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/c"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b8"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/holiday_inn_express"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/holiday_inn_express"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t8"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/holiday_inn_express"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num8"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi8"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/holiday_inn_express" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/c"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row9"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/holiday_inn_express"
+                            android:layout_marginTop="11dp"
+                            android:text="Holiday inn Express"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b9"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/d"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b9"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/hotel_iris"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/hotel_iris"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t9"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/hotel_iris"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num9"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi9"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/hotel_iris" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/d"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row10"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/hotel_iris"
+                            android:layout_marginTop="11dp"
+                            android:text="Hotel Iris"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b10"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/e"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b10"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/aparta_hotel_atenea_valles"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/aparta_hotel_atenea_valles"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t10"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/aparta_hotel_atenea_valles"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num10"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi10"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/aparta_hotel_atenea_valles" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/e"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row11"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/aparta_hotel_atenea_valles"
+                            android:layout_marginTop="11dp"
+                            android:text="Aparta Hotel Atenea Valles"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b11"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/f"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b11"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/augusta_narcelona"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/augusta_narcelona"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t11"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/augusta_narcelona"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num11"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi11"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/augusta_narcelona" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/f"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row12"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/augusta_narcelona"
+                            android:layout_marginTop="11dp"
+                            android:text="Agusta Barcelona"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b12"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/g"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b12"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/ciutat_de_granollers"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/ciutat_de_granollers"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t12"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/ciutat_de_granollers"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num12"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi12"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/ciutat_de_granollers" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/g"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row13"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ciutat_de_granollers"
+                            android:layout_marginTop="11dp"
+                            android:text="Ciutat De Granollers"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b13"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/h"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b13"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/gran_hotel_la_florida"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/gran_hotel_la_florida"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t13"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/gran_hotel_la_florida"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num13"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi13"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/gran_hotel_la_florida" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/h"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row14"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/gran_hotel_la_florida"
+                            android:layout_marginTop="11dp"
+                            android:text="Gran Hotel la Florida"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b14"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/j"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b14"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/mas_salagros_eco_resort"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/mas_salagros_eco_resort"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t14"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/mas_salagros_eco_resort"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num14"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi14"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/mas_salagros_eco_resort" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/j"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/row15"
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/mas_salagros_eco_resort"
+                            android:layout_marginTop="11dp"
+                            android:text="Mas Salagros Eco Resort"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
-                    android:layout_height="175dp"
-                    android:orientation="horizontal"
-                    >
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/b15"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="20dp"
-                        app:cardElevation="20dp">
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:id="@+id/z"
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b15"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:id="@+id/villa_victoria"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/villa_victoria"
+                            android:layout_marginLeft="5dp"
+                            android:layout_alignParentStart="true"/>
+                        <LinearLayout
+                            android:id="@+id/t15"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/villa_victoria"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/num15"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/transparent"
+                                android:src="@drawable/phone" />
+
+                            <ImageButton
+                                android:id="@+id/ubi15"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="30dp"
-                                android:src="@drawable/villa_victoria" />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:layout_toRightOf="@id/z"
-                                android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
-                                android:textSize="20dp" />
-                        </RelativeLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
+                                android:background="@color/transparent"
+                                android:src="@drawable/wbeb" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/villa_victoria"
+                            android:layout_marginTop="11dp"
+                            android:text="Villa Victoria"
+                            android:gravity="center"
+                            />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
             </LinearLayout>
         </ScrollView>
 

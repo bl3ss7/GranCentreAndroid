@@ -72,7 +72,7 @@
                             android:layout_marginEnd="15dp"
                             android:layout_marginBottom="15dp"
                             android:layout_toRightOf="@id/bus406"
-                            android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
+                            android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic en dies laborals."
                             android:textSize="20dp" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -109,7 +109,7 @@
                             android:layout_marginEnd="15dp"
                             android:layout_marginBottom="15dp"
                             android:layout_toRightOf="@id/bus407"
-                            android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
+                            android:text="La línia 407 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic els caps de setmana."
                             android:textSize="20dp" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -146,7 +146,7 @@
                             android:layout_marginEnd="15dp"
                             android:layout_marginBottom="15dp"
                             android:layout_toRightOf="@id/bus550"
-                            android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
+                            android:text="La línia 550 Sagalés: Mataro a Granollers, amb parades com La Roca i Argentona. Finalitza a Mataró"
                             android:textSize="20dp" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -183,7 +183,7 @@
                             android:layout_marginEnd="15dp"
                             android:layout_marginBottom="15dp"
                             android:layout_toRightOf="@id/bus560"
-                            android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
+                            android:text="La línia 560 Sagalés: Granollers a Sant Celoni, amb parades com Llinars del valles i finalitza a l'Estació d'Autobusos de Granollers."
                             android:textSize="20dp" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -220,7 +220,7 @@
                             android:layout_marginEnd="15dp"
                             android:layout_marginBottom="15dp"
                             android:layout_toRightOf="@id/bus569"
-                            android:text="La línia 406 Sagalés: Vic a Granollers, amb parades com La Garriga i finalitza a l'Estació d'Autobusos de Vic."
+                            android:text="La línia 569 Sagalés: Mataro a Granollers, amb parades semidirecte i finalitza a l'estació de busos de Mataró."
                             android:textSize="20dp" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>

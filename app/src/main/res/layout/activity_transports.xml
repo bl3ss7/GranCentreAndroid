@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:text="Aqui text de proba explicant que son els tranports publics, etc."
+        android:text="Mitjà col·lectiu de transport gestionat públicament."
         android:textSize="20sp"/>
     <LinearLayout
         android:id="@+id/row1"
@@ -69,7 +69,7 @@
                     android:layout_marginEnd="15dp"
                     android:layout_marginBottom="15dp"
                     android:layout_toRightOf="@id/busImg"
-                    android:text="gtrtfghgkhnoimlkhjnalsidkfjhniamlskdjf"
+                    android:text="Sagales és una empresa de transport que ofereix serveis de línia regular i discrecional, connectant diferents destinacions i proporcionant opcions de viatge a passatgers que busquen una mobilitat eficient i còmoda."
                     android:textSize="20dp" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -119,7 +119,7 @@
                     android:layout_marginEnd="15dp"
                     android:layout_marginBottom="15dp"
                     android:layout_toRightOf="@id/taxiImg"
-                    android:text="gtrtfghgkhnoimlkhjnalsidkfjhniamlskdjf"
+                    android:text="Els taxis proporcionen serveis de transport personalitzats, oferint desplaçaments immediats i flexibles als passatgers dins d'una àrea urbana."
                     android:textSize="20dp" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -169,7 +169,13 @@
                     android:layout_marginEnd="15dp"
                     android:layout_marginBottom="15dp"
                     android:layout_toRightOf="@id/rodaliesImg"
-                    android:text="gtrtfghgkhnoimlkhjnalsidkfjhniamlskdjf"
+                    android:text="Les Rodalies són serveis de tren de rodalia que connecten àrees metropolitanes, facilitant desplaçaments diaris entre ciutats i els seus voltants.
+
+
+
+
+
+"
                     android:textSize="20dp" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
